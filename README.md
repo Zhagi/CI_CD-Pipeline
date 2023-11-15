@@ -63,14 +63,13 @@ The `.github/workflows/ci-cd-pipeline.yml` file contains the workflow configurat
 - `AWS_ACCESS_KEY_ID`: AWS access key for deployment.
 - `AWS_SECRET_ACCESS_KEY`: AWS secret access key for deployment.
 
-## Below are the images showing the successfully deployed app:
+## Deployment Results
+The following images illustrate the application's deployment status on AWS Elastic Beanstalk:
 
-Health of the EB Environment:
+Elastic Beanstalk Environment Health:
 
 ![Elasticbeanstalk Environment](https://github.com/Zhagi/CI_CD-Pipeline/blob/main/Images/Elastic%20Beanstalk%20Environment.png?raw=true)
 
-Accessing the Environment URL and the Flask App:
+Application View on Elastic Beanstalk:
 
 ![Elastic Beanstalk environment URL](https://github.com/Zhagi/CI_CD-Pipeline/blob/main/Images/Elastic%20Beanstalk%20environment%20URL.png?raw=true)
-
-
