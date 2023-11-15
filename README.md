@@ -26,7 +26,7 @@ The diagram above simplifies the understanding of the CI/CD process and shows th
 ### Installation
 
 # Clone the repository
-git clone https://github.com/Zhagi/CI-CD-Pipeline.git
+git clone https://github.com/Zhagi/CI_CD-Pipeline.git
 cd CI-CD-Pipeline
 
 # Set up and activate a virtual environment
