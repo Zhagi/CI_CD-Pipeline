@@ -65,7 +65,10 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: 'eu-west-2'
       run: |
         pip install awsebcli
         unzip application.zip -d deploy
-        eb deploy ZH-app-env --region eu-west-2 --source deploy/
+        cd deploy
+        eb init -p python-3.8 ZH-app --region $AWS_REGION
+        eb deploy ZH-app-env --region $AWS_REGION --source deploy/
