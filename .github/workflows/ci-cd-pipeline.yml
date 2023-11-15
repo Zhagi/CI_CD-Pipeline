@@ -69,6 +69,7 @@ jobs:
       run: |
         pip install awsebcli
         unzip application.zip -d deploy
+        ls -l deploy/
         cd deploy
         eb init ZH-app --platform python-3.8 --region $AWS_REGION --key $AWS_ACCESS_KEY_ID
-        eb deploy ZH-app-env --region $AWS_REGION --source deploy/
+        eb deploy ZH-app-env --region $AWS_REGION 
