@@ -6,7 +6,7 @@ This repository contains a Python web application built with Flask, configured w
 
 ## How It Works
 
-The CI/CD pipeline is triggered on every push to the `main` branch or pull request targeting `main`. It sets up a Python environment, installs dependencies, runs unit tests, and deploys the application to the cloud if all tests pass.
+The CI/CD pipeline is triggered on every push to the `main` branch or pull request targeting `main`. It sets up a Python environment, installs dependencies, runs unit tests and deploys the application to the cloud if all tests pass.
 
 ## Schematic Diagram
 
@@ -20,7 +20,6 @@ The diagram above simplifies the understanding of the CI/CD process and shows th
 ### Prerequisites
 
 - Python 3.x
-- Git
 - AWS account with Elastic Beanstalk and IAM configured
 
 ### Installation
