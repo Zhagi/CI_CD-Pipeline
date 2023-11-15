@@ -67,7 +67,7 @@ The `.github/workflows/ci-cd-pipeline.yml` file contains the workflow configurat
 
 ![Elasticbeanstalk Environment](https://github.com/Zhagi/CI_CD-Pipeline/blob/main/Images/Elastic%20Beanstalk%20Environment.png?raw=true)
 
-![EC2 instance creation](https://github.com/Zhagi/CI_CD-Pipeline/blob/main/Images/CI:CD%20Pipeline%20Diagram.png?raw=true)
+![EC2 instance creation](https://github.com/Zhagi/CI_CD-Pipeline/blob/main/Images/EC2%20instance%20created.png?raw=true)
 
 ![Elastic Beanstalk environment URL](https://github.com/Zhagi/CI_CD-Pipeline/blob/main/Images/Elastic%20Beanstalk%20environment%20URL.png?raw=true)
 
