@@ -63,7 +63,7 @@ The `.github/workflows/ci-cd-pipeline.yml` file contains the workflow configurat
 - `AWS_ACCESS_KEY_ID`: AWS access key for deployment.
 - `AWS_SECRET_ACCESS_KEY`: AWS secret access key for deployment.
 
-## Below are the images showing the health of the EB environment, the environment URL, and the Flask application in action:
+## Below are the images showing the successfully deployed app:
 
 Health of the EB Environment:
 
