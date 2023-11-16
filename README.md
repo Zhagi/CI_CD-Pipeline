@@ -17,29 +17,29 @@ The diagram above simplifies the understanding of the CI/CD process and shows th
 
 ## Getting Started
 
-### Prerequisites
+## Prerequisites
 
 - Python 3.x
 - AWS account with Elastic Beanstalk and IAM configured
 
-### Installation
+## Installation
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/Zhagi/CI_CD-Pipeline.git
 cd CI-CD-Pipeline
 
-# Set up and activate a virtual environment
+### Set up and activate a virtual environment
 python3 -m venv venv
 
 source venv/bin/activate
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Run the Flask application locally
+### Run the Flask application locally
 python application.py
 
-# Run the unit tests
+### Run the unit tests
 pytest
 
 ## Deployment
@@ -57,7 +57,7 @@ The `.github/workflows/ci-cd-pipeline.yml` file contains the workflow configurat
 
 ## Configuration
 
-### GitHub Secrets
+## GitHub Secrets
 
 - `AWS_ACCESS_KEY_ID`: AWS access key for deployment.
 - `AWS_SECRET_ACCESS_KEY`: AWS secret access key for deployment.
