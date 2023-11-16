@@ -74,4 +74,4 @@ Application View on Elastic Beanstalk:
 ![Elastic Beanstalk environment URL](https://github.com/Zhagi/CI_CD-Pipeline/blob/main/Images/Elastic%20Beanstalk%20environment%20URL.png?raw=true)
 
 ## Acknowledgements
-- This project is part of a comprehensive exercise aimed at mastering the automation of server configurations. You can explore this project along with others at [moabukar/tech-vault](https://github.com/moabukar/tech-vault).
+You can explore this project along with others at [moabukar/tech-vault](https://github.com/moabukar/tech-vault).
